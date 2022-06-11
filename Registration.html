@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Registration.css">
+    <title>Patient Registration</title>
+</head>
+<body>
+    <div class="navbar">
+        <span id="med">
+            <p>
+                SYLHET MAG OSMANI Medical College Hospital
+            </p>
+        </span>
+        <span id="time">
+            <p>
+                23 Feb 2021, Tuesday : 12 : 42 : 53 PM
+            </p>
+        </span>
+    </div>
+    
+    <div class="title">
+        <span>
+            Registration(Walk-In Patients)
+        </span>
+    </div>
+
+    <span class="basic_information">
+        <!-- <h3>Basic Information</h3> -->
+        <form>
+            <fieldset>
+                <legend>Basic Information</legend>
+
+                <p>
+                    <label for="full_name">Full Name(In English)</label>
+                    <input type="text" placeholder="Type here" name="">
+                </p>
+
+                <p>
+                    <label for="gender">Gender</label>
+                    <input type="radio" name="gender" id="gender"> Male
+                    <input type="radio" name="gender" id="gender"> Female
+                    <input type="radio" name="gender" id="gender"> Other
+                </p>
+
+                <p>
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" name="">
+                    <label for="age">Age</label>
+                    <input type="number" name="">
+                </p>
+
+                <p>
+                    <label for="mobile_number">Mobile Number</label>
+                    <input type="tel" name="value" placeholder="Type here">
+                </p>
+
+                <p>
+                    <label for="blood_group">Blood Group</label>
+                    <select id="blood_group" name="">
+                        <optgroup label="Select">
+                            <option>A+</option>
+                            <option>B+</option>
+                            <option>AB+</option>
+                            <option>O+</option>
+                            <option>A-</option>
+                            <option>B-</option>
+                            <option>AB-</option>
+                            <option>O-</option>
+                        </optgroup>
+                    </select>
+                    <label for="marital_status">Marital Status</label>
+                    <select id="marital_status" name="">
+                        <optgroup label="Select">
+                            <option>Married</option>
+                            <option>Unmarried</option>
+                        </optgroup>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="govt_id">Govt. ID</label><br>
+                    <input type="radio" name="govt_id" id="govt_id"> <span>National ID</span><br>
+                    <input type="radio" name="govt_id" id="govt_id"> <span>Birth Certificate</span><br>
+                    <input type="radio" name="govt_id" id="govt_id"> <span>Passport</span><br>
+                    <input type="radio" name="govt_id" id="govt_id"> <span>Don't Have an ID</span><br>
+                </p>
+
+                <p>
+                    <label for="nid_no">Insert NID No. Here</label>
+                    <input type="number" id="nid_no" name="nid_no" placeholder="11000000100000000000">
+                </p>
+
+                <p>
+                    <label for="reg_type">Reg Type</label>
+                    <select id="reg_type">
+                        <optgroup label="Select">
+                            <option>Medical Student</option>
+                            <option>Staff</option>
+                            <option>Patient</option>
+                            <option>Other</option>
+                        </optgroup>
+                    </select>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Please Upload Relevant Document</legend>
+
+                <p>
+                    <label for="document_name">Document Name</label>
+                    <input type="text" id="document_name" name="document_name" placeholder="Student ID Card">
+                </p>
+
+                <p>
+                    <label for="upload_document">Upload Document</label>
+                    <input type="submit" id="upload_document" name="upload_document" value="Upload">
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>C/O Information</legend>
+                <p>
+                    <label for="co_name">C/O Name</label>
+                    <input type="text" id="co_name" name="co_name" placeholder="Type Name">
+                </p>
+
+                <p>
+                    <label for="co_relationship">Relationship</label>
+                    <select id="co_relationship">
+                        <optgroup label="Select">
+                            <option>Parent</option>
+                            <option>Sibling</option>
+                            <option>Friend</option>
+                            <option>Other</option>
+                        </optgroup>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="co_mobile_number">Mobile Number</label>
+                    <input type="tel" id="co_mobile_number" name="co_mobile_number" placeholder="Type Here">
+                </p>
+            </fieldset>
+        </form>
+    </span>
+
+    <span class="other_information">
+        <form>
+            <fieldset>
+                <legend>Capture / Upload Photo</legend>
+
+                <div>
+                    <img>
+                </div>
+                <input type="submit" value="Camera" id="camera_photo" name="camera_photo">
+                <input type="submit" value="Upload" id="upload_photo" name="upload_photo">
+
+                <br>
+
+                <ul>
+                    <li>Upload any JPG, PNG format image</li>
+                    <li>Max image size 2MB</li>
+                </ul>
+            </fieldset>
+
+            <fieldset>
+                <legend>Other Information</legend>
+
+                <p>
+                    <label for="occupation">Occupation</label>
+                    <select id="occupation">
+                        <optgroup label="Select">
+                            <option>Service Holder</option>
+                            <option>Businessman</option>
+                            <option>Vocational Jobs</option>
+                            <option>Others</option>
+                        </optgroup>
+                    </select>
+
+                    <label for="religion">Religion</label>
+                    <select id="religion">
+                        <optgroup label="Select">
+                            <option>Islam</option>
+                            <option>Hinduism</option>
+                            <option>Buddhism</option>
+                            <option>Christianism</option>
+                            <option>Others</option>
+                        </optgroup>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="nationality">Nationality</label>
+                    <select id="nationality">
+                        <optgroup label="Select">
+                            <option>Bangladeshi</option>
+                            <option>Others</option>
+                        </optgroup>
+                    </select>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Type Here">
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Contact Information</legend>
+
+                <p>
+                    <label for="division">Division</label>
+                    <select id="division">
+                        <optgroup label="Select">
+                            <option>Dhaka</option>
+                            <option>Rajshahi</option>
+                            <option>Khulna</option>
+                            <option>Borishal</option>
+                            <option>Chittagong</option>
+                            <option>Sylhet</option>
+                            <option>Mymensingh</option>
+                        </optgroup>
+                    </select>
+
+                    <label for="district">District</label>
+                    <select id="district">
+                        <optgroup label="Select">
+                            <option>Faridpur</option>
+                            <option>Madaripur</option>
+                            <option>Sayedpur</option>
+                        </optgroup>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="thana">Thana</label>
+                    <select id="thana">
+                        <optgroup label="Select">
+                            <option>Thana 1</option>
+                            <option>Thana 2</option>
+                            <option>Thana 3</option>
+                        </optgroup>
+                    </select>
+
+                    <label for="address">Address</label>
+                    <input type="text" id="address" name="address" placeholder="Type Here">
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Emergency Contact</legend>
+
+                <p>
+                    <label for="em_name">Name</label>
+                    <input type="text" name="em_name" id="em_name" placeholder="Type Here">
+                </p>
+
+                <p>
+                    <label for="em_mobile_number">Mobile Number</label>
+                    <input type="tel" name="em_mobile_number" id="em_mobile_number" placeholder="Type Here">
+                </p>
+
+                <p>
+                    <label for="em_relationship">Relationship</label>
+                    <select id="em_relationship">
+                        <optgroup label="Select">
+                            <option>Parents</option>
+                            <option>Sibling</option>
+                            <option>Friend</option>
+                            <option>Other</option>
+                        </optgroup>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="em_address">Address</label>
+                    <input type="text" id="em_address" name="em_address" placeholder="Type Here">
+                </p>
+            </fieldset>
+        </form>
+    </span>
+
+    <input type="submit" value="Reset" id="reset_button" name="reset_button">
+    <input type="submit" value="Save" id="save_button" name="save_button">
+    <input type="submit" value="View Patient ID Card" id="id_button" name="id_button">
+
+    <span id="hidden_span">
+
+    </span>
+</body>
+</html>

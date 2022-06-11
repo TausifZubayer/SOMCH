@@ -1,0 +1,212 @@
+html, body {
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    background-color: white;
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    display: flex;
+}
+
+.navbar #med {
+    position: relative;
+    color: blue;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.navbar #time {
+    color: gray;
+    background-color: cyan;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: sticky;
+    left: 1000px;
+    display: flex;
+}
+
+.navbar #time p {
+    margin: auto;
+    padding-top: 5px;
+}
+
+.title {
+    margin: 20px;
+    background-color: gray;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.basic_information {
+    width: 40%;
+    height: 95%;
+    margin: 20px;
+    float: left;
+}
+
+.basic_information fieldset {
+    background: white;
+}
+
+.basic_information fieldset legend {
+    font-weight: bold;
+}
+
+.basic_information fieldset p label {
+    color: #607d8b;
+    font-weight: 600;
+}
+
+.basic_information fieldset p input[type="text"] {
+    border-radius: 5px;
+    border: 1px solid #607d8b;
+}
+
+.basic_information fieldset p input[type="tel"] {
+    border-radius: 5px;
+    border: 1px solid #607d8b;
+}
+
+.basic_information fieldset p input[type="number"] {
+    border-radius: 5px;
+    border: 1px solid #607d8b;
+}
+
+.basic_information fieldset p input[type="date"] {
+    border-radius: 5px;
+    border: 1px solid #607d8b;
+}
+
+.basic_information fieldset p select {
+    border-radius: 5px;
+    border: 1px solid #607d8b;
+}
+
+.basic_information fieldset p input[type="submit"] {
+    background: #ff4584;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.other_information {
+    width: 40%;
+    height: 95%;
+    margin: 20px;
+    float: right;
+}
+
+.other_information fieldset {
+    background: white;
+}
+
+.other_information fieldset div {
+    width: 100px;
+    height: 90px;
+    background: gray;
+    display: inline-block;
+}
+
+.other_information fieldset ul {
+    display: inline-block;
+}
+
+.other_information fieldset ul li {
+    color: #607d8b;
+}
+
+.other_information fieldset legend {
+    font-weight: bold;
+}
+
+.other_information fieldset p label {
+    color: #607d8b;
+    font-weight: 600;
+}
+
+.other_information fieldset p input[type="text"] {
+    border-radius: 5px;
+    border: 1px solid #607d8b;
+}
+
+.other_information fieldset p input[type="tel"] {
+    border-radius: 5px;
+    border: 1px solid #607d8b;
+}
+
+.other_information fieldset p input[type="email"] {
+    border-radius: 5px;
+    border: 1px solid #607d8b;
+}
+
+.other_information fieldset p select {
+    border-radius: 5px;
+    border: 1px solid #607d8b;
+}
+
+.other_information fieldset input[type="submit"] {
+    background: #ff4584;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 30px;
+}
+
+#reset_button {
+    position: absolute;
+    top: 900px;
+    left: 540px;
+    margin-bottom: 50px;
+    background: transparent;
+    width: 90px;
+    height: 30px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#save_button {
+    position: absolute;
+    top: 900px;
+    left: 645px;
+    width: 90px;
+    height: 30px;
+    background: blue;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#id_button {
+    position: absolute;
+    top: 900px;
+    left: 750px;
+    width: 150px;
+    height: 30px;
+    background: darkcyan;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#hidden_span {
+    position: absolute;
+    top: 930px;
+    width: 100%;
+    height: 20px;
+}
