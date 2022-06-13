@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registered Patient Work List</title>
+    <link rel="stylesheet" type="text/css" href="workList.css">
+</head>
+<body>
+    <div class="someBootstrap">
+        <span id="med">
+            <p>
+                SYLHET MAG OSMANI Medical College Hospital
+            </p>
+        </span>
+        <span id="time">
+            <p>
+                23 Feb 2021, Tuesday : 12 : 42 : 53 PM
+            </p>
+        </span>
+    </div>
+    
+    <div class="title">
+        <span>
+            Registration(Walk-In Patients) > Registered Patient Work List
+        </span>
+    </div>
+
+    <div class="UI_controls">
+        <form>
+            <label for="from_date">Date</label>
+            <label for="patient_id">Patient ID</label>
+            <label for="mobile_number">Mobile No.</label>
+            <label for="govt_id">Govt. ID</label>
+            <label for="blood_group">Blood Group</label>
+            <label for="reg_type">Reg. Source</label>
+            <br>
+            <input type="date" id="from_date" name="from_date" placeholder="dd-mm-yyyy">
+            <input type="date" id="to_date" name="to_date" placeholder="dd-mm-yyyy">
+            <input type="text" id="patient_id" name="patient_id" placeholder="Type Here">
+            <input type="tel" id="mobile_number" name="mobile_number" placeholder="Type Here">
+            <input type="text" id="govt_id" name="govt_id" placeholder="Type Here">
+
+            <select id="blood_group" name="">
+                <optgroup label="Select">
+                    <option>A+</option>
+                    <option>B+</option>
+                    <option>AB+</option>
+                    <option>O+</option>
+                    <option>A-</option>
+                    <option>B-</option>
+                    <option>AB-</option>
+                    <option>O-</option>
+                </optgroup>
+            </select>
+
+            <select id="reg_type">
+                <optgroup label="Select">
+                    <option>Medical Student</option>
+                    <option>Staff</option>
+                    <option>Patient</option>
+                    <option>Other</option>
+                </optgroup>
+            </select>
+
+            <input type="submit" id="search_button" name="search_button" value="Search">
+            <input type="submit" id="reset_button" name="reset_button" value="Reset">
+
+        </form>
+    </div>
+
+    <br>
+
+    <div class="patient_list">
+        <span class="datetime">
+            Date: 28-06-2021 to 28-06-2021
+        </span>
+        <span class="search_input">
+            <input type="search" id="search_box" name="search_box" placeholder="Search Here">
+        </span>
+
+        <br><br>
+
+        <table border="0" cellpadding="10px" align="center">
+            <tr id="table_heading">
+                <th>
+                    SL
+                </th>
+                <th>
+                    Patient ID
+                </th>
+                <th>
+                    Patient Name
+                </th>
+                <th>
+                    Gender
+                </th>
+                <th>
+                    Age
+                </th>
+                <th>
+                    BO
+                </th>
+                <th>
+                    Mobile no.
+                </th>
+                <th>
+                    Reg. Source
+                </th>
+                <th>
+                    Reg Type
+                </th>
+                <th>
+                    Govt. ID
+                </th>
+                <th>
+                    Uploaded Doc.
+                </th>
+                <th>
+                    Action
+                </th>
+            </tr>
+
+            <tr id="data1">
+                <td>
+                    01
+                </td>
+                <td>
+                    R01201119000001
+                </td>
+                <td>
+                    Al Mamun
+                </td>
+                <td>
+                    Male
+                </td>
+                <td>
+                    30Y 5M 2D
+                </td>
+                <td>
+                    AB+
+                </td>
+                <td>
+                    01234567890
+                </td>
+                <td>
+                    Reg. Booth
+                </td>
+                <td>
+                    Medical Student
+                </td>
+                <td>
+                    NID=26541234
+                </td>
+                <td>
+                    <button>Student ID</button>
+                </td>
+                <td>
+                    <button><img src="edit_icon.png"/></button>
+                    <button><img src="view.png"/></button>
+                    <button><img src="merge.png"/></button>
+                </td>
+            </tr>
+
+            <tr id="data2">
+                <td>
+                    02
+                </td>
+                <td>
+                    R01201119000001
+                </td>
+                <td>
+                    Al Mamun
+                </td>
+                <td>
+                    Male
+                </td>
+                <td>
+                    30Y 5M 2D
+                </td>
+                <td>
+                    AB+
+                </td>
+                <td>
+                    01234567890
+                </td>
+                <td>
+                    Reg. Booth
+                </td>
+                <td>
+                    Medical Student
+                </td>
+                <td>
+                    NID=26541234
+                </td>
+                <td>
+                    <button>Student ID</button>
+                </td>
+                <td>
+                    <button><img src="edit_icon.png" /></button>
+                    <button><img src="view.png" /></button>
+                    <button><img src="merge.png" /></button>
+                </td>
+            </tr>
+
+            <tr id="data3">
+                <td>
+                    03
+                </td>
+                <td>
+                    R01201119000001
+                </td>
+                <td>
+                    Al Mamun
+                </td>
+                <td>
+                    Male
+                </td>
+                <td>
+                    30Y 5M 2D
+                </td>
+                <td>
+                    AB+
+                </td>
+                <td>
+                    01234567890
+                </td>
+                <td>
+                    Reg. Booth
+                </td>
+                <td>
+                    Medical Student
+                </td>
+                <td>
+                    NID=26541234
+                </td>
+                <td>
+                    <button>Student ID</button>
+                </td>
+                <td>
+                    <button><img src="edit_icon.png" /></button>
+                    <button><img src="view.png" /></button>
+                    <button><img src="merge.png" /></button>
+                </td>
+            </tr>
+
+            <tr id="data4">
+                <td>
+                    04
+                </td>
+                <td>
+                    R01201119000001
+                </td>
+                <td>
+                    Al Mamun
+                </td>
+                <td>
+                    Male
+                </td>
+                <td>
+                    30Y 5M 2D
+                </td>
+                <td>
+                    AB+
+                </td>
+                <td>
+                    01234567890
+                </td>
+                <td>
+                    Reg. Booth
+                </td>
+                <td>
+                    Medical Student
+                </td>
+                <td>
+                    NID=26541234
+                </td>
+                <td>
+                    <button>Student ID</button>
+                </td>
+                <td>
+                    <button><img src="edit_icon.png" /></button>
+                    <button><img src="view.png" /></button>
+                    <button><img src="merge.png" /></button>
+                </td>
+            </tr>
+
+            <tr id="data5">
+                <td>
+                    05
+                </td>
+                <td>
+                    R01201119000001
+                </td>
+                <td>
+                    Al Mamun
+                </td>
+                <td>
+                    Male
+                </td>
+                <td>
+                    30Y 5M 2D
+                </td>
+                <td>
+                    AB+
+                </td>
+                <td>
+                    01234567890
+                </td>
+                <td>
+                    Reg. Booth
+                </td>
+                <td>
+                    Medical Student
+                </td>
+                <td>
+                    NID=26541234
+                </td>
+                <td>
+                    <button>Student ID</button>
+                </td>
+                <td>
+                    <button><img src="edit_icon.png" /></button>
+                    <button><img src="view.png" /></button>
+                    <button><img src="merge.png" /></button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

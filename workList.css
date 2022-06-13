@@ -1,0 +1,155 @@
+html,body {
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.someBootstrap {
+    background-color: white;
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    display: flex;
+}
+
+.someBootstrap #med {
+    position: relative;
+    color: blue;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.someBootstrap #time {
+    color: gray;
+    background-color: cyan;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: sticky;
+    left: 1000px;
+    display: flex;
+}
+
+.someBootstrap #time p {
+    margin: auto;
+    padding-top: 5px;
+}
+
+.title {
+    margin: 20px;
+    background-color: gray;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.UI_controls input[type="text"] {
+    width: 120px;
+    height: 20px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.UI_controls input[type="tel"] {
+    width: 120px;
+    height: 20px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.UI_controls input[type="date"] {
+    width: 120px;
+    height: 20px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.UI_controls select {
+    width: 120px;
+    height: 20px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.UI_controls input[type="submit"] {
+    width: 90px;
+    height: 40px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.UI_controls #from_date {
+    margin-left: 15px;
+}
+
+.UI_controls label[for="from_date"] {
+    margin-left: 15px;
+}
+
+.UI_controls label[for="patient_id"] {
+    margin-left: 248px;
+}
+
+.UI_controls label[for="mobile_number"] {
+    margin-left: 71px;
+}
+
+.UI_controls label[for="govt_id"] {
+    margin-left: 63px;
+}
+
+.UI_controls label[for="blood_group"] {
+    margin-left: 83px;
+}
+
+.UI_controls label[for="reg_type"] {
+    margin-left: 45px;
+}
+
+.UI_controls #search_button {
+    background: blue;
+    cursor: pointer;
+}
+
+.UI_controls #reset_button {
+    background: transparent;
+    cursor: pointer;
+}
+
+.search_input {
+    float: right;
+    margin-right: 30px;
+}
+
+.datetime {
+    margin-left: 30px;
+}
+
+.patient_list {
+    background-color: white;
+}
+
+#table_heading {
+    background-color: blue;
+}
+
+#data1 {
+    background-color: lightgray;
+}
+
+#data3 {
+    background-color: lightgray;
+}
+
+#data5 {
+    background-color: lightgray;
+}
+
+table button {
+    cursor: pointer;
+}
